@@ -18,5 +18,10 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+      - name: Test Azure login
+        run: |
+          echo "Checking Azure login..."
+          az account show
+
       - name: Run Cloud Storage Script
         run: bash ./cloud_storage.sh
