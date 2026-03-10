@@ -3,7 +3,7 @@ name: Deploy Cloud Storage
 on:
   push:
     branches:
-      - main  # Run workflow on pushes to main branch
+      - main
 
 jobs:
   deploy:
@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
-      - name: Set up Azure CLI
-        uses: azure/setup-azure@v3
 
       - name: Login to Azure
         uses: azure/login@v1
