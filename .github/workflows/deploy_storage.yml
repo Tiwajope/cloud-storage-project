@@ -21,4 +21,4 @@ jobs:
     
 
       - name: Run Cloud Storage Script
-        run: bash ./cloud_storage.sh
+        run: bash ./cloud_storage_auto.sh
