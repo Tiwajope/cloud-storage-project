@@ -2,7 +2,7 @@
 
 RESOURCE_GROUP="myResourceGroup"
 LOCATION="eastus"
-STORAGE_ACCOUNT="tiwastorage$RANDOM"
+STORAGE_ACCOUNT="tiwastoragecapstone"
 CONTAINER_NAME="files" 
 
 echo "Creating resource group..."
