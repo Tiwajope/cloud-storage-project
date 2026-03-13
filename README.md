@@ -241,14 +241,14 @@ CLOUD-STORAGE-PROJECT
 
 └── report
 
-    └── Akintomide Tiwajope (Cloud-Based File Storage_Capstone Report_Techcrush C5).pdf  
+    └── cloud_storage_report.pdf  
 ```
 
 ## Project Report
 
 The detailed project report can be found here:
 
-[Cloud Storage Project Report](report/Akintomide Tiwajope (Cloud-Based File Storage_Capstone Report_Techcrush C5).pdf)
+[Cloud Storage Project Report](report/cloud_storage_report.pdf)
 
 ## Conclusion
 
