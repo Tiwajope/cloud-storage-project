@@ -179,27 +179,7 @@ C:\Users\Username\Documents\example.txt
 
 Ensuring the file existed at the specified location allowed the upload process to complete successfully.
 
-### 7. Understanding How to Document the Project
-
-**Challenge**:
-Another difficulty encountered was determining how to properly structure the GitHub repository and documentation for submission.
-
-**Solution**:
-The repository was organized with the following structure:
-
-project-folder
-
-│
-
-├── cloud_storage_cli.sh
-
-├── README.md
-
-└── screenshots
-
-Screenshots of the Azure portal and CLI operations were added to the repository to demonstrate the functionality of the project.
-
-### 8. Connecting the CLI Script with Azure Storage
+### 7. Connecting the CLI Script with Azure Storage
 
 **Challenge**:
 Initially it was confusing how the Bash script interacts with Azure Blob Storage through the Azure CLI commands.
@@ -216,6 +196,59 @@ az storage blob download
 az storage blob delete
 
 allow the script to communicate directly with the Azure Storage container.
+
+## Repository Structure
+```
+CLOUD-STORAGE-PROJECT
+
+│
+
+├── cloud_storage_cli.sh
+
+├── cloud_storage_auto.sh
+
+├── .github
+
+|        ├──workflows
+        
+|        ├──deploy_storage.yml
+
+|        ├──.gitkeep
+
+├── storage.log
+
+├── README.md                  
+
+│
+
+├── screenshots      
+
+|    ├── azure_storage_account.png   
+
+│    ├── container_created.png
+
+│    ├── delete_file.png
+
+│    ├── download_file.png
+
+│    ├── github_actions.png
+
+│    ├── list_files.png
+
+│    └── upload_file.png    
+
+│
+
+└── report
+
+    └── Akintomide Tiwajope (Cloud-Based File Storage_Capstone Report_Techcrush C5).pdf  
+```
+
+## Project Report
+
+The detailed project report can be found here:
+
+report/cloud_storage_report.pdf
 
 ## Conclusion
 
