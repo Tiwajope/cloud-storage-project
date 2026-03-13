@@ -248,7 +248,7 @@ CLOUD-STORAGE-PROJECT
 
 The detailed project report can be found here:
 
-report/cloud_storage_report.pdf
+[Cloud Storage Project Report](report/Akintomide Tiwajope (Cloud-Based File Storage_Capstone Report_Techcrush C5).pdf)
 
 ## Conclusion
 
