@@ -241,14 +241,14 @@ CLOUD-STORAGE-PROJECT
 
 └── report
 
-    └── cloud_storage_report.pdf  
+    └── Akintomide_Tiwajope_cloud_storage_report.pdf  
 ```
 
 ## Project Report
 
 The detailed project report can be found here:
 
-[Cloud Storage Project Report](report/cloud_storage_report.pdf)
+[Cloud Storage Project Report](report/Akintomide_Tiwajope_cloud_storage_report.pdf)
 
 ## Conclusion
 
